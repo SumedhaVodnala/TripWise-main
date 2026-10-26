@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TripWise | Intelligent Travel Planning Bot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <div class="brand-mark">TW</div>
+          <div>
+            <p class="eyebrow">Travel planning assistant</p>
+            <h1>TripWise</h1>
+          </div>
+        </div>
+        <nav class="topnav">
+          <a href="#planner">Planner</a>
+          <a href="#results">Recommendations</a>
+          <a href="#budget">Budget Tracker</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="tag">Smart trip matching</p>
+            <h2>Discover Your Next Adventure</h2>
+            <p>
+              Plan a smoother trip by matching your budget, interests, travel style, and trip length with the best destination and itinerary combination.
+            </p>
+          </div>
+          <div class="hero-panel">
+            <div class="stat-box">
+              <span class="stat-icon"><i data-lucide="map-pin"></i></span>
+              <div>
+                <strong>15+</strong>
+                <small>Indian destinations</small>
+              </div>
+            </div>
+            <div class="stat-box">
+              <span class="stat-icon"><i data-lucide="wallet"></i></span>
+              <div>
+                <strong>AI</strong>
+                <small>budget-aware matching</small>
+              </div>
+            </div>
+            <div class="stat-box">
+              <span class="stat-icon"><i data-lucide="route"></i></span>
+              <div>
+                <strong>Fast</strong>
+                <small>smart recommendation engine</small>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="planner" class="planner-card">
+          <div class="section-heading">
+            <h3>Plan your trip</h3>
+            <button type="button" class="secondary" id="reset-button">Plan Again</button>
+          </div>
+
+          <form id="trip-form" class="trip-form">
+            <div class="field-group">
+              <label for="starting-city">Starting city</label>
+              <input id="starting-city" name="starting-city" type="text" placeholder="e.g., Bengaluru" required />
+            </div>
+
+            <div class="field-group">
+              <label for="budget">Total budget (INR)</label>
+              <input id="budget" name="budget" type="number" min="500" step="500" value="30000" required />
+            </div>
+
+            <div class="field-group">
+              <label for="duration">Trip duration (days)</label>
+              <input id="duration" name="duration" type="number" min="1" value="5" required />
+            </div>
+
+            <div class="field-group">
+              <label for="destination-type">Preferred destination type</label>
+              <select id="destination-type" name="destination-type">
+                <option value="any">Any</option>
+                <option value="nature">Nature & Mountains</option>
+                <option value="beach">Beaches</option>
+                <option value="historical">Historical & Cultural</option>
+                <option value="adventure">Adventure</option>
+                <option value="spiritual">Spiritual</option>
+                <option value="wildlife">Wildlife</option>
+              </select>
+            </div>
+
+            <div class="field-group">
+              <label for="transport-preference">Transport preference</label>
+              <select id="transport-preference" name="transport-preference">
+                <option value="any">Any</option>
+                <option value="bus">Bus</option>
+                <option value="train">Train</option>
+                <option value="flight">Flight</option>
+              </select>
+            </div>
+
+            <div class="field-group">
+              <label for="accommodation-preference">Accommodation style</label>
+              <select id="accommodation-preference" name="accommodation-preference">
+                <option value="budget">Budget</option>
+                <option value="standard" selected>Standard</option>
+                <option value="luxury">Luxury</option>
+              </select>
+            </div>
+
+            <div class="field-group wide">
+              <label>Interests and activities</label>
+              <div class="chip-grid">
+                <label class="chip"><input type="checkbox" value="nature" /> Nature</label>
+                <label class="chip"><input type="checkbox" value="beach" /> Beach</label>
+                <label class="chip"><input type="checkbox" value="culture" /> Culture</label>
+                <label class="chip"><input type="checkbox" value="adventure" /> Adventure</label>
+                <label class="chip"><input type="checkbox" value="spiritual" /> Spiritual</label>
+                <label class="chip"><input type="checkbox" value="wildlife" /> Wildlife</label>
+                <label class="chip"><input type="checkbox" value="food" /> Food</label>
+                <label class="chip"><input type="checkbox" value="photography" /> Photography</label>
+              </div>
+            </div>
+
+            <div class="field-group">
+              <label for="traveler-count">Number of travelers</label>
+              <input id="traveler-count" name="traveler-count" type="number" min="1" value="2" required />
+            </div>
+
+            <div class="submit-wrap wide">
+              <button type="submit" class="primary" id="submit-button">
+                <span class="button-text">Find My Perfect Trip</span>
+                <span class="spinner hidden"></span>
+              </button>
+            </div>
+          </form>
+
+          <div id="message" class="message" aria-live="polite"></div>
+        </section>
+
+        <section id="results" class="results-section">
+          <div class="results-header">
+            <h3>Recommended trips</h3>
+            <span id="summary-badge" class="summary-badge">Ready</span>
+          </div>
+          <div id="recommendations" class="recommendations"></div>
+          <div id="empty-state" class="empty-state hidden">
+            <p>No trips match your current preferences. Try broadening the category or increasing your budget.</p>
+          </div>
+        </section>
+
+        <section id="budget" class="budget-card">
+          <h3>Trip summary</h3>
+          <div id="trip-summary" class="trip-summary">
+            <p>Complete your trip details to see a full budget summary and recommendation breakdown.</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

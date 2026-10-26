@@ -1,0 +1,342 @@
+[
+  {
+    "id": "leh-ladakh",
+    "name": "Leh-Ladakh",
+    "state": "Ladakh",
+    "category": "nature",
+    "description": "High-altitude deserts, mountain passes, and peaceful monasteries make Ladakh ideal for scenic and adventurous travelers.",
+    "best_season": "June to September",
+    "recommended_trip_duration": 6,
+    "transport_costs": {"bus": 4200, "train": 7000, "flight": 12400},
+    "accommodation_costs": {"budget": 1200, "standard": 2400, "luxury": 6200},
+    "food_per_day": 900,
+    "local_transport_allowance": 500,
+    "activities": [
+      {"name": "Pangong Lake", "cost": 1500, "tags": ["nature", "scenic", "photography"]},
+      {"name": "Khardung La Pass", "cost": 2200, "tags": ["adventure", "mountains"]},
+      {"name": "Monastery visit", "cost": 800, "tags": ["spiritual", "culture"]}
+    ],
+    "tags": ["mountains", "adventure", "nature", "photography", "spiritual"],
+    "distance_or_travel_time": "Illustrative estimate: 1,300-1,500 km road travel from major Indian cities."
+  },
+  {
+    "id": "goa",
+    "name": "Goa",
+    "state": "Goa",
+    "category": "beach",
+    "description": "A lively coastal destination with beaches, nightlife, water sports, and a blend of Portuguese heritage and relaxed beach culture.",
+    "best_season": "November to February",
+    "recommended_trip_duration": 4,
+    "transport_costs": {"bus": 1800, "train": 2600, "flight": 6800},
+    "accommodation_costs": {"budget": 1500, "standard": 3200, "luxury": 7900},
+    "food_per_day": 1100,
+    "local_transport_allowance": 400,
+    "activities": [
+      {"name": "Beach hopping", "cost": 1200, "tags": ["beach", "relaxation", "water"]},
+      {"name": "Parasailing", "cost": 2400, "tags": ["adventure", "beach"]},
+      {"name": "Old Goa heritage walk", "cost": 900, "tags": ["culture", "history"]}
+    ],
+    "tags": ["beach", "relaxation", "adventure", "food", "nightlife"],
+    "distance_or_travel_time": "Illustrative estimate: 1,000-1,400 km by road or a short flight from many cities."
+  },
+  {
+    "id": "jaipur",
+    "name": "Jaipur",
+    "state": "Rajasthan",
+    "category": "historical",
+    "description": "The Pink City offers forts, palaces, handicrafts, and rich Rajput heritage for culture-seeking travelers.",
+    "best_season": "October to March",
+    "recommended_trip_duration": 3,
+    "transport_costs": {"bus": 1400, "train": 2200, "flight": 5600},
+    "accommodation_costs": {"budget": 1400, "standard": 2700, "luxury": 6500},
+    "food_per_day": 850,
+    "local_transport_allowance": 350,
+    "activities": [
+      {"name": "Amer Fort", "cost": 1200, "tags": ["history", "heritage"]},
+      {"name": "City Palace tour", "cost": 1500, "tags": ["culture", "history"]},
+      {"name": "Shopping in Johari Bazaar", "cost": 1000, "tags": ["shopping", "culture"]}
+    ],
+    "tags": ["history", "culture", "heritage", "shopping", "palaces"],
+    "distance_or_travel_time": "Illustrative estimate: 300-800 km by train or flight depending on origin."
+  },
+  {
+    "id": "varanasi",
+    "name": "Varanasi",
+    "state": "Uttar Pradesh",
+    "category": "spiritual",
+    "description": "One of the oldest living cities in the world, famous for temple walks, Ganga aarti, and deeply spiritual experiences.",
+    "best_season": "October to March",
+    "recommended_trip_duration": 2,
+    "transport_costs": {"bus": 1200, "train": 2100, "flight": 6100},
+    "accommodation_costs": {"budget": 1000, "standard": 2100, "luxury": 5200},
+    "food_per_day": 700,
+    "local_transport_allowance": 300,
+    "activities": [
+      {"name": "Ganga Aarti", "cost": 300, "tags": ["spiritual", "religion"]},
+      {"name": "Temple walk", "cost": 500, "tags": ["spiritual", "culture"]},
+      {"name": "Sunrise boat ride", "cost": 1500, "tags": ["scenic", "spiritual"]}
+    ],
+    "tags": ["spiritual", "religion", "culture", "heritage"],
+    "distance_or_travel_time": "Illustrative estimate: 500-1,000 km by rail or road from many major cities."
+  },
+  {
+    "id": "rishikesh",
+    "name": "Rishikesh",
+    "state": "Uttarakhand",
+    "category": "adventure",
+    "description": "Set on the Ganga, Rishikesh combines yoga, rafting, river walks, and mountain views for a dynamic wellness-adventure trip.",
+    "best_season": "September to November",
+    "recommended_trip_duration": 4,
+    "transport_costs": {"bus": 1100, "train": 1800, "flight": 5900},
+    "accommodation_costs": {"budget": 1100, "standard": 2600, "luxury": 5500},
+    "food_per_day": 800,
+    "local_transport_allowance": 300,
+    "activities": [
+      {"name": "White-water rafting", "cost": 2500, "tags": ["adventure", "river"]},
+      {"name": "Yoga retreat", "cost": 1800, "tags": ["wellness", "spiritual"]},
+      {"name": "Lakshman Jhula walk", "cost": 500, "tags": ["culture", "scenic"]}
+    ],
+    "tags": ["adventure", "nature", "wellness", "spiritual", "river"],
+    "distance_or_travel_time": "Illustrative estimate: 200-600 km from north Indian hubs; good road and rail access."
+  },
+  {
+    "id": "ooty",
+    "name": "Ooty",
+    "state": "Tamil Nadu",
+    "category": "nature",
+    "description": "Known as the Queen of Hill Stations, Ooty combines cool weather, botanical gardens, and misty mountain viewpoints.",
+    "best_season": "April to June and October to February",
+    "recommended_trip_duration": 3,
+    "transport_costs": {"bus": 1800, "train": 2600, "flight": 7200},
+    "accommodation_costs": {"budget": 1300, "standard": 2500, "luxury": 6000},
+    "food_per_day": 800,
+    "local_transport_allowance": 300,
+    "activities": [
+      {"name": "Botanical Garden", "cost": 500, "tags": ["nature", "family"]},
+      {"name": "Lake boating", "cost": 1100, "tags": ["nature", "relaxation"]},
+      {"name": "Tea estate tour", "cost": 1200, "tags": ["nature", "culture"]}
+    ],
+    "tags": ["mountains", "nature", "family", "scenic", "relaxation"],
+    "distance_or_travel_time": "Illustrative estimate: 500-900 km depending on origin; hill road travel is common."
+  },
+  {
+    "id": "jim-corbett",
+    "name": "Jim Corbett National Park",
+    "state": "Uttarakhand",
+    "category": "wildlife",
+    "description": "A wildlife-rich national park known for tiger safaris, bird watching, and jungle experiences.",
+    "best_season": "November to June",
+    "recommended_trip_duration": 3,
+    "transport_costs": {"bus": 1600, "train": 2200, "flight": 7000},
+    "accommodation_costs": {"budget": 1800, "standard": 3400, "luxury": 7600},
+    "food_per_day": 1000,
+    "local_transport_allowance": 400,
+    "activities": [
+      {"name": "Wildlife safari", "cost": 2600, "tags": ["wildlife", "nature", "adventure"]},
+      {"name": "Birdwatching", "cost": 1000, "tags": ["wildlife", "nature"]},
+      {"name": "Forest resort evening", "cost": 800, "tags": ["nature", "relaxation"]}
+    ],
+    "tags": ["wildlife", "nature", "adventure", "safari"],
+    "distance_or_travel_time": "Illustrative estimate: 250-600 km from north Indian metros depending on route."
+  },
+  {
+    "id": "ranthambore",
+    "name": "Ranthambore",
+    "state": "Rajasthan",
+    "category": "wildlife",
+    "description": "A famous tiger reserve with dramatic fort views, dry deciduous forests, and memorable safari tours.",
+    "best_season": "October to June",
+    "recommended_trip_duration": 3,
+    "transport_costs": {"bus": 1600, "train": 2300, "flight": 6700},
+    "accommodation_costs": {"budget": 1700, "standard": 3300, "luxury": 7200},
+    "food_per_day": 950,
+    "local_transport_allowance": 350,
+    "activities": [
+      {"name": "Tiger safari", "cost": 2800, "tags": ["wildlife", "adventure"]},
+      {"name": "Ranthambore Fort", "cost": 900, "tags": ["history", "heritage"]},
+      {"name": "Nature drive", "cost": 1200, "tags": ["wildlife", "nature"]}
+    ],
+    "tags": ["wildlife", "nature", "adventure", "history"],
+    "distance_or_travel_time": "Illustrative estimate: 400-900 km via road or train depending on departure city."
+  },
+  {
+    "id": "udaipur",
+    "name": "Udaipur",
+    "state": "Rajasthan",
+    "category": "historical",
+    "description": "The City of Lakes combines royal palaces, sunset viewpoints, and a romantic atmosphere for couples and culture lovers.",
+    "best_season": "October to March",
+    "recommended_trip_duration": 3,
+    "transport_costs": {"bus": 1500, "train": 2300, "flight": 6600},
+    "accommodation_costs": {"budget": 1300, "standard": 2900, "luxury": 7000},
+    "food_per_day": 900,
+    "local_transport_allowance": 350,
+    "activities": [
+      {"name": "Lake Pichola boat ride", "cost": 1400, "tags": ["scenic", "romantic"]},
+      {"name": "City Palace", "cost": 1500, "tags": ["history", "culture"]},
+      {"name": "Bagore Ki Haveli", "cost": 700, "tags": ["heritage", "culture"]}
+    ],
+    "tags": ["history", "culture", "scenic", "romantic", "lakes"],
+    "distance_or_travel_time": "Illustrative estimate: 400-1000 km depending on origin, often reachable by rail or air."
+  },
+  {
+    "id": "hampi",
+    "name": "Hampi",
+    "state": "Karnataka",
+    "category": "historical",
+    "description": "Ancient ruins, giant boulders, and temple landscapes make Hampi an atmospheric mix of heritage and exploration.",
+    "best_season": "October to February",
+    "recommended_trip_duration": 3,
+    "transport_costs": {"bus": 1200, "train": 1900, "flight": 6200},
+    "accommodation_costs": {"budget": 1000, "standard": 2200, "luxury": 4700},
+    "food_per_day": 700,
+    "local_transport_allowance": 300,
+    "activities": [
+      {"name": "Virupaksha Temple visit", "cost": 500, "tags": ["history", "culture"]},
+      {"name": "Sunset boulder trek", "cost": 700, "tags": ["adventure", "scenic"]},
+      {"name": "Stone chariot view", "cost": 400, "tags": ["history", "heritage"]}
+    ],
+    "tags": ["history", "heritage", "adventure", "ruins"],
+    "distance_or_travel_time": "Illustrative estimate: 500-700 km by road or rail depending on origin."
+  },
+  {
+    "id": "pahalgam",
+    "name": "Pahalgam",
+    "state": "Jammu and Kashmir",
+    "category": "nature",
+    "description": "Pahalgam offers lush valleys, meadow walks, and mountain-view attractions for a peaceful and scenic holiday.",
+    "best_season": "April to June and September to October",
+    "recommended_trip_duration": 4,
+    "transport_costs": {"bus": 2400, "train": 4200, "flight": 9800},
+    "accommodation_costs": {"budget": 1600, "standard": 3100, "luxury": 7000},
+    "food_per_day": 900,
+    "local_transport_allowance": 500,
+    "activities": [
+      {"name": "Betaab Valley walk", "cost": 1200, "tags": ["nature", "scenic"]},
+      {"name": "Lidder river outing", "cost": 1000, "tags": ["nature", "relaxation"]},
+      {"name": "Pahalgam meadows", "cost": 700, "tags": ["nature", "photography"]}
+    ],
+    "tags": ["mountains", "nature", "scenic", "photography", "relaxation"],
+    "distance_or_travel_time": "Illustrative estimate: 1,000+ km by road or air for most travelers."
+  },
+  {
+    "id": "munnar",
+    "name": "Munnar",
+    "state": "Kerala",
+    "category": "nature",
+    "description": "Tea gardens, waterfalls, and cool climate make Munnar a classic escape for nature lovers and couples.",
+    "best_season": "September to March",
+    "recommended_trip_duration": 3,
+    "transport_costs": {"bus": 2000, "train": 3000, "flight": 7600},
+    "accommodation_costs": {"budget": 1500, "standard": 2900, "luxury": 6600},
+    "food_per_day": 850,
+    "local_transport_allowance": 350,
+    "activities": [
+      {"name": "Tea estate walk", "cost": 700, "tags": ["nature", "culture"]},
+      {"name": "Eravikulam National Park", "cost": 1600, "tags": ["wildlife", "nature"]},
+      {"name": "Waterfall visit", "cost": 800, "tags": ["nature", "scenic"]}
+    ],
+    "tags": ["nature", "mountains", "scenic", "tea", "relaxation"],
+    "distance_or_travel_time": "Illustrative estimate: 400-700 km depending on route; air access may be indirect."
+  },
+  {
+    "id": "khajuraho",
+    "name": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "category": "historical",
+    "description": "A UNESCO-listed heritage city known for intricately carved temples and sculptural artistry.",
+    "best_season": "October to March",
+    "recommended_trip_duration": 2,
+    "transport_costs": {"bus": 1200, "train": 1900, "flight": 6200},
+    "accommodation_costs": {"budget": 1100, "standard": 2200, "luxury": 5000},
+    "food_per_day": 750,
+    "local_transport_allowance": 250,
+    "activities": [
+      {"name": "Temple complex tour", "cost": 900, "tags": ["history", "heritage"]},
+      {"name": "Light and sound show", "cost": 600, "tags": ["culture", "history"]},
+      {"name": "Handicraft market", "cost": 700, "tags": ["shopping", "culture"]}
+    ],
+    "tags": ["history", "heritage", "culture", "architecture"],
+    "distance_or_travel_time": "Illustrative estimate: 300-700 km from nearby metro cities by rail or road."
+  },
+  {
+    "id": "bodh-gaya",
+    "name": "Bodh Gaya",
+    "state": "Bihar",
+    "category": "spiritual",
+    "description": "A major pilgrimage destination associated with Buddha's enlightenment and sacred Buddhist sites.",
+    "best_season": "October to March",
+    "recommended_trip_duration": 2,
+    "transport_costs": {"bus": 1000, "train": 1800, "flight": 6000},
+    "accommodation_costs": {"budget": 900, "standard": 1900, "luxury": 4300},
+    "food_per_day": 650,
+    "local_transport_allowance": 250,
+    "activities": [
+      {"name": "Mahabodhi Temple visit", "cost": 250, "tags": ["spiritual", "heritage"]},
+      {"name": "Meditation retreat", "cost": 1200, "tags": ["wellness", "spiritual"]},
+      {"name": "Monastery circuit", "cost": 500, "tags": ["culture", "spiritual"]}
+    ],
+    "tags": ["spiritual", "buddhist", "peace", "culture"],
+    "distance_or_travel_time": "Illustrative estimate: 450-900 km from major Indian cities depending on mode."
+  },
+  {
+    "id": "shimla",
+    "name": "Shimla",
+    "state": "Himachal Pradesh",
+    "category": "nature",
+    "description": "A charming hill station with colonial architecture, scenic views, and easy access for family and couples trips.",
+    "best_season": "March to June and October to December",
+    "recommended_trip_duration": 4,
+    "transport_costs": {"bus": 1200, "train": 1600, "flight": 6300},
+    "accommodation_costs": {"budget": 1400, "standard": 2600, "luxury": 5600},
+    "food_per_day": 820,
+    "local_transport_allowance": 300,
+    "activities": [
+      {"name": "Mall Road stroll", "cost": 400, "tags": ["family", "scenic"]},
+      {"name": "Kufri outing", "cost": 1300, "tags": ["nature", "adventure"]},
+      {"name": "Toy train ride", "cost": 900, "tags": ["culture", "scenic"]}
+    ],
+    "tags": ["mountains", "nature", "family", "scenic", "culture"],
+    "distance_or_travel_time": "Illustrative estimate: 300-700 km road or rail access from major northern cities."
+  },
+  {
+    "id": "kerala-backwaters",
+    "name": "Kerala Backwaters",
+    "state": "Kerala",
+    "category": "beach",
+    "description": "Slow boat rides, houseboat stays, and palm-lined canals make this a restorative and scenic water-based trip.",
+    "best_season": "June to March",
+    "recommended_trip_duration": 4,
+    "transport_costs": {"bus": 1600, "train": 2500, "flight": 6900},
+    "accommodation_costs": {"budget": 1600, "standard": 3200, "luxury": 7200},
+    "food_per_day": 900,
+    "local_transport_allowance": 350,
+    "activities": [
+      {"name": "Houseboat stay", "cost": 2600, "tags": ["relaxation", "scenic", "water"]},
+      {"name": "Backwater canoe ride", "cost": 1300, "tags": ["nature", "relaxation"]},
+      {"name": "Village walk", "cost": 700, "tags": ["culture", "nature"]}
+    ],
+    "tags": ["water", "relaxation", "nature", "culture", "backwaters"],
+    "distance_or_travel_time": "Illustrative estimate: 500-1,200 km depending on origin; road and rail connectivity is easy."
+  },
+  {
+    "id": "agra",
+    "name": "Agra",
+    "state": "Uttar Pradesh",
+    "category": "historical",
+    "description": "The Taj Mahal and nearby heritage landmarks make Agra a compact but memorable cultural getaway.",
+    "best_season": "October to March",
+    "recommended_trip_duration": 2,
+    "transport_costs": {"bus": 1100, "train": 1800, "flight": 5200},
+    "accommodation_costs": {"budget": 1200, "standard": 2200, "luxury": 4800},
+    "food_per_day": 700,
+    "local_transport_allowance": 250,
+    "activities": [
+      {"name": "Taj Mahal sunrise", "cost": 800, "tags": ["history", "heritage", "scenic"]},
+      {"name": "Agra Fort", "cost": 700, "tags": ["history", "culture"]},
+      {"name": "Local market walk", "cost": 500, "tags": ["shopping", "culture"]}
+    ],
+    "tags": ["history", "heritage", "culture", "monuments"],
+    "distance_or_travel_time": "Illustrative estimate: 200-600 km from major northern cities."
+  }
+]
