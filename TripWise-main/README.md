@@ -157,14 +157,14 @@ TripWise/
 ### 1. Open the project in VS Code
 Open the folder:
 
-C:\Users\Ramya Sri\Downloads\halo-fall-aware-home-simulator\TripWise
+"C:\Users\vodna\Downloads\My folder\personal\projects\TripWise-main"
 
 ### 2. Open the VS Code terminal
 Use Terminal -> New Terminal in VS Code.
 
 ### 3. Create a Python virtual environment
 ```powershell
-cd "C:\Users\Ramya Sri\Downloads\halo-fall-aware-home-simulator\TripWise"
+cd "C:\Users\vodna\Downloads\My folder\personal\projects\TripWise-main"
 python -m venv .venv
 ```
 
@@ -188,7 +188,7 @@ python -m pip install -r requirements.txt
 ### 6. Start the Flask backend
 From the project root:
 ```powershell
-cd "C:\Users\Ramya Sri\Downloads\halo-fall-aware-home-simulator\TripWise"
+cd "C:\Users\vodna\Downloads\My folder\personal\projects\TripWise-main"
 .\.venv\Scripts\python.exe .\backend\app.py
 ```
 
@@ -207,7 +207,7 @@ Option A: VS Code Live Server
 
 Option B: local static server from the terminal
 ```powershell
-cd "C:\Users\Ramya Sri\Downloads\halo-fall-aware-home-simulator\TripWise\frontend"
+cd "C:\Users\vodna\Downloads\My folder\personal\projects\TripWise-main"
 python -m http.server 8000
 ```
 Then open:
@@ -268,7 +268,7 @@ http://127.0.0.1:5000
 The project includes an automated test suite for recommendation logic. To run tests:
 
 ```powershell
-cd "C:\Users\Ramya Sri\Downloads\halo-fall-aware-home-simulator\TripWise"
+cd "C:\Users\vodna\Downloads\My folder\personal\projects\TripWise-main"
 .\.venv\Scripts\Activate.ps1
 python -m unittest discover -s tests -v
 ```
